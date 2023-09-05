@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+
+    <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/images/fav.jpg">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawsom-all.min.css">
+    <link rel="stylesheet" href="assets/plugins/grid-gallery/css/grid-gallery.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+      <!-- auto -->
+      <style>
+        .number
+        {
+            font-size: 40px;
+            color: red;
+            font-weight: 600;
+        }
+        .box
+        {
+            box-shadow: 0 4px 18px 16px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+        
+    </style>
+    <!-- auto -->
+    
+</head>
+<body>
+
+<!-- auto -->
+<div class="container-fluid">
+
+    <div class="row justify-content-center box">
+        <div class="col-12 col-sm-8">
+            <div id="projectFacts" class="sectionClass">
+                <div class="fullWidth eight columns">
+                    <div class="row projectFactsWrap py-5">
+                        <div class="col-lg-4 col-md-6 col-12 item wow fadeInUpBig animated animated text-center"
+                            data-number="20" style="visibility: visible">
+                            <i class="fa-solid fa-users fa-3x"></i>
+                            <p id="number1" class="number">20</p>
+                            <span></span>
+                            <p>Worldwide Clients</p>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12 item wow fadeInUpBig animated animated text-center"
+                            data-number="7079" style="visibility: visible">
+                            <i class="fa-solid fa-brush fa-3x"></i>
+                            <p id="number2" class="number">7079</p>
+                            <span></span>
+                            <p>Store Clients Products</p>
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-12 item wow fadeInUpBig animated animated text-center"
+                            data-number="1043" style="visibility: visible">
+                            <i class="fa-solid fa-bacon fa-3x"></i>
+                            <p id="number3" class="number">1043</p>
+                            <span></span>
+                            <p>Total Km Reach So Far</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div> 
+<!-- auto -->
+
+
+
+
+ 
+<!-- auto -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+<script>
+
+    $.fn.jQuerySimpleCounter = function (options) {
+        var settings = $.extend({
+            start: 0,
+            end: 100,
+            easing: 'swing',
+            duration: 400,
+            complete: ''
+        }, options);
+
+        var thisElement = $(this);
+
+        $({ count: settings.start }).animate({ count: settings.end }, {
+            duration: settings.duration,
+            easing: settings.easing,
+            step: function () {
+                var mathCount = Math.ceil(this.count);
+                thisElement.text(mathCount);
+            },
+            complete: settings.complete
+        });
+    };
+
+
+    $('#number1').jQuerySimpleCounter({ end: 20, duration: 3000 });
+    $('#number2').jQuerySimpleCounter({ end: 7079, duration: 3000 });
+    $('#number3').jQuerySimpleCounter({ end: 1043, duration: 2000 });
+
+</script>
+<!-- auto -->
+
+ 
+ <script src="assets/js/jquery-3.2.1.min.js"></script>
+ <script src="assets/js/popper.min.js"></script>
+ <script src="assets/js/bootstrap.min.js"></script>
+ <script src="assets/plugins/grid-gallery/js/grid-gallery.min.js"></script>
+ <script src="assets/plugins/scroll-fixed/jquery-scrolltofixed-min.js"></script>
+ <script src="assets/js/script.js"></script>
+
+
+
+ <!-- Gallary Script  -->
+
+ <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+
+
+
+</body>
+</html>
