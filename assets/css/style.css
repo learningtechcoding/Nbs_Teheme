@@ -17,6 +17,9 @@ Description: This Template is created for Youtubers
 .container-fluid {
   padding: 20px;
 }
+.nbaFont{
+  font-size: 25px !important;
+}
 
 .card-image {
   border-radius: 10px;
@@ -1082,4 +1085,27 @@ section {
 .card-body {
   padding: 0.5rem !important;
 }
+
+.iconshover i{
+  font-size: 23px;
+}
+.iconshover i:hover{
  
+  cursor: pointer;
+  transform: scale(1.5);
+  
+
+  transition: 0.5s;
+
+}
+ 
+.footerchanges a{
+  color: white;
+  /* font-size: 18px; */
+  line-height: 30px;
+  padding-top: 10px;
+}
+.footerchanges a:hover{
+  text-decoration: underline;
+ 
+}
