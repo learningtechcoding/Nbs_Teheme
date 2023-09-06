@@ -14,6 +14,7 @@ Description: This Template is created for Youtubers
 :root {
   --header-bg-color: #722282;
   --header-color: #722282;
+  --heading-color: #722282;
   --heading1-color: #fff;
   --heading2-color: #585858;
   --heading3-color: #fff9f5;
@@ -458,7 +459,8 @@ header {
 }
 
 header .header-top {
-  background-color: #de1f26;
+  /* background-color: #de1f26; */
+  background-color: var(--header-bg-color);
 }
 
 header .header-top .col-det .ulleft li {
@@ -1019,7 +1021,8 @@ section {
 
   height: 3px;
   border-radius: 10px;
-  background-color: red;
+  /* background-color: red; */
+  background-color: var(--heading-color);
 }
 
 /*#####################> Process  Start <############ */
