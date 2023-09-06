@@ -64,8 +64,8 @@
 }
 .testim .dots .dot.active,
 .testim .dots .dot:hover {
-    background: #DE1F26;
-    border-color: #DE1F26;
+    background: var(--icon-color);
+    border-color: var(--icon-color);
 }
 .testim .dots .dot.active {
     -webkit-animation: testim-scale .5s ease-in-out forwards;   
@@ -108,7 +108,7 @@
 }
 
 .testim .cont div h2 {
-    color: #DE1F26;
+    color: var(--heading-color);
     font-size: 24px;
     font-weight: 800;
     margin: 15px 0;
