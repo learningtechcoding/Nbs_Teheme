@@ -1,6 +1,6 @@
 .testim {
 		width: 100%;
-        color: black !important; 
+        color: var( --heading2-color) !important; 
 }
 .testim .wrap {
     position: relative;
