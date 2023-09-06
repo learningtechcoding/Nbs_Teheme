@@ -327,6 +327,13 @@ body {
   float: none;
   margin: auto;
 }
+.nav-list .nav-li a  {
+  color: var( --heading2-color)!important;
+  
+}
+.nav-list .nav-li{
+  font-weight: 500 !important;
+}
 
 @media screen and (max-width: 576px) {
   .page-nav {
@@ -920,7 +927,7 @@ footer .footer-copy .socila-link ul li a {
 }
 
 .news-card .image {
-  border-right: 3px solid #de1f26;
+  border-right: 3px solid var(--border-color6);
 }
 
 /*# sourceMappingURL=style.css.map */
@@ -1074,7 +1081,7 @@ section {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: #de1f26;
+  background:var( --background-color2);
   font-size: 16px;
   color: #fff;
   text-align: center;
