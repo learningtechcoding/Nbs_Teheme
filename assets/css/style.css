@@ -25,9 +25,13 @@ Description: This Template is created for Youtubers
   --nav-bar-color:#585858;
 
   --icon-color:#722282;
+  --icon-color1:#cc4b00;
+  --icon-color2:#fff;
 
   --paragraph-color: #585858;
   --paragraph-color1: #722282;
+  --paragraph-color2: #cc4b00;
+  --paragraph-color3: #fff;
 
   --box-shadow: rgba(16, 24, 40, 0.05);
 
@@ -47,6 +51,7 @@ Description: This Template is created for Youtubers
 
   --button-border-color: #cc4b00;
   --button-border-color1: #d8d8d8;
+  --button-border-color2: #722282;
 
   /* Website Button start  */
   --button-hover-color: #ffa300;
@@ -54,6 +59,7 @@ Description: This Template is created for Youtubers
   --button-hover-color2: #722282;
 
   --button-color: #fff;
+  --button-color1: #722282;
   /* Website Button end */
 --progress-bar-color:#722282;
   --outline: rgba(162, 94, 181, 0.33);
@@ -87,6 +93,9 @@ Description: This Template is created for Youtubers
 .websitebutton:hover {
   background-color: var(--button-hover-color);
   transition: 0.3s;
+}
+.websitebutton:focus {
+ box-shadow: none;
 }
 /*##############> Website Button end <##############*/
 
@@ -525,6 +534,9 @@ header .header-bottom .navbar {
   }
 }
 
+
+
+
 header .header-bottom img {
   margin-top: 15px;
 }
@@ -720,6 +732,37 @@ header .nav-col .navbar-nav li {
 }
 
 /* ===================================== About US CSS ================================== */
+.footer-call{
+  border-top: 2px solid var(--hr-color);
+  border-bottom: 2px solid var(--hr-color);
+}
+.footer-call h6{
+  font-size: 20px;
+font-weight: 500;
+color: var( --paragraph-color3);
+}
+.footer-call a{
+  font-size: 18px;
+font-weight: 400;
+  color: var(--paragraph-color2);
+}
+.footer-follow h6{
+  font-size: 20px;
+  font-weight: 500;
+  color: var( --paragraph-color3);
+}
+.footer-follow ul li a i{
+  font-size: 30px;
+  /* background-color: var(--icon-color2); */
+  color: var( --icon-color1);
+ margin-left: 15px;
+}
+.footer-app h6{
+  font-size: 20px;
+  font-weight: 500;
+  color: var( --paragraph-color3);
+}
+
 footer {
   background:var(--Footer-background-color);
   padding: 50px !important;

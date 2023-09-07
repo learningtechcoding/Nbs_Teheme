@@ -47,9 +47,9 @@
 
     <!-- Gallary Images  -->
     <style>
-      .portfolio-menu {
+      /* .portfolio-menu {
         text-align: center;
-      }
+      } */
 
       .portfolio-menu ul li {
         display: inline-block;
@@ -62,8 +62,19 @@
         -ms-transition: all 05s ease;
         -o-transition: all 05s ease;
         transition: all 0.5s ease;
+        color: var(--button-color1);
+    background-color: transparent;
+    background-image: none;
+    border-color: var(--button-border-color2);
       }
-
+      .portfolio-menu ul li:hover{
+        background-color: var(--background-color2);
+        color: var(--button-color);
+      }
+      .portfolio-menu ul li.active{
+        background-color: var(--background-color2);
+        color: var(--button-color);
+      }
       .portfolio-item {
       }
 
@@ -167,12 +178,12 @@
           <h1 class="masterheading">Checkout our Gallery</h1>
         </div>
       </div>
-      <div class="portfolio-menu mt-2 mb-4">
+      <div class="portfolio-menu d-flex justify-content-center mt-2 mb-4">
         <ul>
-          <li class="btn btn-outline-dark active" data-filter="*">All</li>
-          <li class="btn btn-outline-dark" data-filter=".gts">Girls T-shirt</li>
-          <li class="btn btn-outline-dark" data-filter=".lap">Laptops</li>
-          <li class="btn btn-outline-dark text" data-filter=".selfie">
+          <li class="btn active mt-sm-0 mt-2" data-filter="*">All</li>
+          <li class="btn mt-sm-0 mt-2" data-filter=".gts">Girls T-shirt</li>
+          <li class="btn mt-sm-0 mt-2" data-filter=".lap">Laptops</li>
+          <li class="btn text mt-sm-0 mt-2" data-filter=".selfie">
             selfie
           </li>
         </ul>
