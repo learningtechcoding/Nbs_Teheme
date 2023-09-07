@@ -336,13 +336,13 @@ body {
   float: none;
   margin: auto;
 }
-.nav-list .nav-li a  {
+/* .nav-list .nav-li a  {
   color: var( --heading2-color)!important;
   
 }
 .nav-list .nav-li{
   font-weight: 500 !important;
-}
+} */
 
 @media screen and (max-width: 576px) {
   .page-nav {
@@ -931,7 +931,7 @@ footer .footer-copy .socila-link ul li a {
 }
 
 .blog-container .news-row .news-card {
-  display: flex;
+  /* display: flex; */
   background-color: #fff;
   box-shadow: 0 2px 3px 0 rgba(218, 218, 253, 0.35),
     0 0px 3px 0 rgba(206, 206, 238, 0.35);
